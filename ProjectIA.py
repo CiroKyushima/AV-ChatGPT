@@ -3,8 +3,7 @@ import pyttsx3 #converte textos em audios
 #import requests
 from datetime import datetime
 import openai
-from senha import API_KEY
-openai.api_key = API_KEY
+openai.api_key = "copy the key here!!"
 
 
 def inicia_pyttsx3(): #funão para IA me perguntar
